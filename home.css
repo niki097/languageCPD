@@ -1,0 +1,191 @@
+
+:root{
+    --dark-yellow:#fec40b;
+    --light-yellow:#fde442;
+    --teal:#007385;
+    --mid-teal:#40A8B2;
+    --light-teal:#73C2C6;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* -----------------navbar-start--------------- */
+.navbar{
+    background-color: var(--teal);
+    padding: .9rem;
+    border-bottom: ;
+}
+.navbar img {
+    height: 7rem;
+    position: absolute;
+    left: 3px;
+    top: -0.6rem;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    background: var(--light-teal);
+    font-size: 2rem;
+    padding: 0 10px;
+    margin-right: 0;
+    margin-left: 2rem;
+}
+dl, ol, ul {
+    margin-top: 1rem;
+}
+.navbar-custom .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly; /* Evenly space items */
+    padding-left: 1rem;
+}
+.navbar-light .navbar-toggler {
+    color: var(--light-yellow);
+    border-color:var(--teal);
+}
+.navbar-toggler {
+    background-color:var(--light-yellow);
+    border: 1px solid var(--teal);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--light-yellow);
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:var(--light-yellow);
+}
+/* -----------------navbar-end--------------- */
+
+
+/* -----------------section-1---------------- */
+
+.section-1 {
+    background: linear-gradient(to bottom,#fde442, #fec40b);
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+}
+.section-1 .hero-text {
+    background-color: var(--light-yellow);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    text-align: center;
+}
+.section-1 .hero-text h1 {
+    font-weight: 700;
+    font-size: 56px;
+    /* width: 90%; */
+    width: auto;
+    padding: 1rem;
+    /* margin: 3rem; */
+}
+.social-links {
+    display: grid;
+    position: fixed;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--light-teal);
+    padding: .6rem .5rem;
+    gap: .8rem;
+    right: 0;
+    width: fit-content;
+}
+.social-links a{
+    color: #000;
+}
+.section-1 .hero-vid img{
+    height: 330px;
+}
+/* --------------------section-2------------- */
+.section-2{
+    background-color: var(--teal);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what_is_it {
+    position: relative;
+    padding-bottom: 2rem;
+}
+.what_is_it img {
+    height: 150px;
+    position: absolute;
+    transform: translate(-29%, -33%);
+}
+.what_is_it h1{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: var(--mid-teal);
+    padding:0 1rem;
+    width: fit-content;
+    margin-left: 2rem;
+}
+.what_is_it_par{
+    margin: 2rem 0;
+}
+.what_is_it_par p{
+    color: #fff;
+}
+.what_is_it_vid img{
+    height: 330px;
+}
+
+/* -------------section-3------------- */
+.section-3 {
+    background: linear-gradient(to bottom,#fde442, #fec40b);
+    padding: 1rem 2rem;
+}
+.curriculum h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+.curriculum p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.curriculum button{
+    border: none;
+    background-color: var(--teal);
+    padding: .6rem 2rem;
+    border: 1px solid #161616;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.curriculum-table table{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-size: 12px;
+}
+.curriculum-table .table>thead {
+    vertical-align: bottom;
+
+    background: var(--dark-yellow);
+}
+.curriculum-table .table td{
+    color: var(--teal);
+    font-weight: 600;
+}
+.curriculum-table .table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: var(--light-yellow);
+    color: #000;
+}
+.section-3 .what_is_it p{
+    margin-top: 4rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+
+
