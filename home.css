@@ -362,6 +362,9 @@ dl, ol, ul {
     display: grid;
     justify-items: center;  
 }
+.section-8 .card-body p{
+    padding: 0 2rem;
+}
 .contact-details{
     display: grid;
     gap: 2rem;
@@ -446,6 +449,7 @@ dl, ol, ul {
 /* --------------------footer---------------- */
 .list-unstyled a{
     color: var(--light-yellow);
+
 }
 
 

@@ -36,8 +36,23 @@
        margin-left: 2rem;
     }
     .what_is_it h1 {
-        font-size: 37px;
+        font-size: 30px;
         margin-left: 1rem;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .contact-details a {
+        font-size: 1rem;
+    }
+    .section-5 .curriculum p {
+        padding: 0;
+    }
+    .section-5 .curriculum h1 {
+        font-size: 22px;
+    }
+    .section-8 .card-body p{
+        padding: 0rem;
     }
     .what_is_it img {
         transform: translate(-44%, -32%);
