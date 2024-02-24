@@ -25,14 +25,33 @@
     .section-1 .hero-vid img{
         height: 220px;
     }
+    .section-6 {
+        padding: 2rem 1rem;
+    }
+    .section-6 .what_is_it h1 {
+        font-size: 30px;
+        margin-left: 1rem;
+    }
     .what_is_it {
        margin-left: 2rem;
+    }
+    .what_is_it h1 {
+        font-size: 37px;
+        margin-left: 1rem;
     }
     .what_is_it img {
         transform: translate(-44%, -32%);
     }
     .what_is_it_vid img{
         height: auto;
+    }
+    .who_we_are span {
+        left: -1%;
+        top: -3%;
+        font-size: 27px;
+    }
+    .who_we_are .img-fluid {
+        max-width: 100%;
     }
     
 }

@@ -11,11 +11,28 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+button{
+    border: none;
+    padding: .6rem 2rem;
+    border: 1px solid #161616;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+p{
+    font-weight: 500;
+}
+.card-title{
+    color: var(--teal);
+    font-weight: 600;
+    font-size: 30px;
+}
 /* -----------------navbar-start--------------- */
 .navbar{
     background-color: var(--teal);
     padding: .9rem;
-    border-bottom: ;
+    border-bottom: 1px solid var(--dark-yellow);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .navbar img {
     height: 7rem;
@@ -118,7 +135,7 @@ dl, ol, ul {
 }
 .what_is_it h1{
     color: #000;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 600;
     background-color: var(--mid-teal);
     padding:0 1rem;
@@ -149,13 +166,7 @@ dl, ol, ul {
     font-weight: 500;
 }
 .curriculum button{
-    border: none;
     background-color: var(--teal);
-    padding: .6rem 2rem;
-    border: 1px solid #161616;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 8px;
 }
 .curriculum-table table{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -184,6 +195,261 @@ dl, ol, ul {
 .table-bordered td {
     border: 1px solid rgb(255, 255, 255);
 }
+/* ------------section-4---------------- */
+.section-4{
+    background-color: var(--teal);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upskilling .card-body {
+    flex: initial;
+    padding: 0rem 1rem;
+}
+.upskilling .card-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 14px;
+    color: var(--teal);
+    font-weight: 600;
+    border-radius: 5px;
+}
+.upskilling .card {
+    height: 150px;
+    padding: 0.5rem;
+}
+.upskilling .card a{
+    color: var(--teal);
+    font-weight: 600;
+}
+.upskilling .card-title{
+    font-size: 16px;
+    color: var(--teal);
+    font-weight: 600;
+}
+.card-group .card:nth-child(1),
+.card-group .card:nth-child(4) {
+    background-color: var(--light-yellow);
+}
+
+.card-group .card:nth-child(2),
+.card-group .card:nth-child(3) {
+    background-color: var(--light-teal);
+}
+.section-4 button{
+    background-color: var(--dark-yellow);
+    color: #000;
+}
+.section-4 .library{
+    text-align: justify;
+    margin: 1.5rem 0;
+    font-size: initial;
+}
+/* --------------------section-5------------- */
+.section-5{
+    background: linear-gradient(to bottom,#fde442, #fec40b);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5 .curriculum p {
+    text-align: justify;
+    padding: 1rem 3rem;
+    font-weight: 500;
+}
+.attend_live .card{
+    background-color:rgba(0,0,0,.25);
+}
+.attend_live .card-title {
+    background: var(--teal);
+    height: 9rem;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex;
+    margin: .1rem;
+    justify-content: center;
+}
+.attend_live .card-title p{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   font-weight: 600;
+   font-size: 18px;
+   color: #fff;
+}
+.attend_live .card-body {
+   background-color: rgba(0,0,0,.25);
+    font-weight: 600;
+    text-align: center;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #000;
+}
+
+/* ----------------section-6--------------- */
+.section-6{
+    background-color: var(--teal);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--dark-yellow);
+}
+.section-7 h2{
+    color: var(--dark-yellow);
+    font-weight: 600;
+}
+.who_we_are{
+    position: relative;
+}
+.who_we_are .img-fluid{
+    max-width: 84%;
+}
+.who_we_are span {
+    position: absolute;
+    left: 17%;
+    transform: translate(-63% -130%);
+    top: 11%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 35px;
+}
+
+/* -----------section-7------------ */
+
+
+/* --------------section-8----------------- */
+.section-7{
+    background: linear-gradient(to bottom,#fde442, #fec40b);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-7 .card {
+    background: transparent;
+    border: transparent;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.section-7 .card-img, .card-img-bottom, .card-img-top {
+    width: 69%;
+}
+
+
+/* ----------------section-8-------------- */
+.section-8{
+    background: linear-gradient(to bottom,#fde442, #fec40b);
+    padding: 3rem 2rem;
+}
+.section-8 h1{
+    background-color: var(--dark-yellow);
+}
+.section-8 .card-img, .card-img-bottom, .card-img-top {
+    width: 51%;
+}
+.section-8 .card {
+    background: transparent;
+    border: transparent;
+    display: grid;
+    justify-items: center;  
+}
+.contact-details{
+    display: grid;
+    gap: 2rem;
+}
+.contact-details a{
+    display: flex;
+    gap: 1rem;
+    color: var(--dark-yellow);
+    font-size: 2rem;
+}
+/* -----------------section-9 */
+
+.packages .card{
+    padding: 0;
+    height: 300px;
+}
+.packages .card-title{
+    margin-bottom: 0;
+    position: relative;
+}
+.packages .card-title .or {
+    position: absolute;
+    transform: translate(-47% -50%);
+    transform: translate(90px, -13px);
+    background: #000;
+    border-radius: 8px;
+    height: 28px;
+    color: #f1f1f1;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.packages .price{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1rem ;
+    color: #000;
+    margin:0;
+}
+.packages .price span{
+    font-size: 18px;
+}
+.packages .price p{
+    margin: 0;
+}
+.packages .year{
+    background-color: var(--light-yellow);
+}
+.packages .month {
+    background-color: var(--light-teal);
+    padding: .7rem 0;
+}
+.packages .card-body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-yellow);
+}
+.packages .card-text {
+    font-size: 24px;
+    padding-top: 10px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    color: #000;
+}
+.packages .card-body span{
+    font-size: 14px;
+}
+.packages .card-body h6{
+    font-size: 12px;
+}
+.packages .live .card{
+    background-color: var(--light-teal);
+}
+.packages .live .card-body{
+    background-color: transparent;
+}
+
+/* --------------------footer---------------- */
+.list-unstyled a{
+    color: var(--light-yellow);
+}
+
+
+
 
 
 
