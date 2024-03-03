@@ -369,11 +369,11 @@ dl, ol, ul {
     display: grid;
     gap: 2rem;
 }
-.contact-details a{
+.contact-details a {
     display: flex;
     gap: 1rem;
     color: var(--dark-yellow);
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 /* -----------------section-9 */
 
@@ -449,7 +449,26 @@ dl, ol, ul {
 /* --------------------footer---------------- */
 .list-unstyled a{
     color: var(--light-yellow);
+}
+.footer-options{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-options a{
+    color: var(--dark-yellow);
+    text-decoration: none;
+    font-size: 18px;
+}
 
+.footer-options-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-options-details a{
+    color: var(--dark-yellow);
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
 }
 
 
